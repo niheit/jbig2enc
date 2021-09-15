@@ -33,23 +33,23 @@
 #endif
 struct jbig2_segment {
   u32 number;
-#ifndef _BIG_ENDIAN
+// #ifndef _BIG_ENDIAN
   unsigned char type : 6;
   unsigned char page_assoc_size : 1;
   unsigned char deferred_non_retain : 1;
-#else
-  unsigned char deferred_non_retain : 1;
-  unsigned char page_assoc_size : 1;
-  unsigned char type : 6;
-#endif
+// #else
+//  unsigned char deferred_non_retain : 1;
+//  unsigned char page_assoc_size : 1;
+//  unsigned char type : 6;
+// #endif
 
-#ifndef _BIG_ENDIAN
+// #ifndef _BIG_ENDIAN
   unsigned char retain_bits : 5;
   unsigned char segment_count : 3;
-#else
-  unsigned char segment_count : 3;
-  unsigned char retain_bits : 5;
-#endif
+// #else
+//  unsigned char segment_count : 3;
+//  unsigned char retain_bits : 5;
+// #endif
 }
 #if defined(WIN32)
 ;
