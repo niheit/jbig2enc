@@ -25,6 +25,10 @@ make
 make install (or sudo make install)
 
 
+To produce PDF files, install "python27," and:
+python2.7 /usr/local/bin/pdf.py output >out.pdf
+
+
 VC++ 2008 Notes
 ===============
 
