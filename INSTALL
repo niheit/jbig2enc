@@ -12,6 +12,19 @@ make
 make install (or sudo make install)
 
 
+FreeBSD on little-endian machines (e.g. intel laptops)
+====================================================== 
+
+If leptonica's header files (leptonica/*.h) are located in "/usr/local/include,"
+ and its library files (liblept.so*) in "/usr/local/lib," try this:
+
+./autogen.sh
+./configure CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib" CXXFLAGS="-
+I/usr/local/include"
+make
+make install (or sudo make install)
+
+
 VC++ 2008 Notes
 ===============
 
