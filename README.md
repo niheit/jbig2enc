@@ -42,4 +42,4 @@ $ jbig2 -s feyn.tif &gt;feyn.jb2
 
 ## Patched version
 
-This is a patched version of JBIG2 encoder for FreeBSD running on little-endian machines (e.g. Intel laptop computers). See INSTALL for details.
+This is a patched version of jbig2enc for FreeBSD running on little-endian machines (e.g. Intel laptop computers). See INSTALL for details.
