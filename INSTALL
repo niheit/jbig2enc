@@ -12,11 +12,11 @@ make
 make install (or sudo make install)
 
 
-FreeBSD on little-endian machines (e.g. intel laptops)
-====================================================== 
+FreeBSD on little-endian machines
+=================================
 
-If leptonica's header files (leptonica/*.h) are located in "/usr/local/include,"
- and its library files (liblept.so*) in "/usr/local/lib," try this:
+If leptonica's header files (leptonica/*.h) are located in "/usr/local/include",
+ and its library files (liblept.so*) in "/usr/local/lib", try this:
 
 ./autogen.sh
 ./configure CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib" CXXFLAGS="-
@@ -24,7 +24,7 @@ I/usr/local/include"
 make
 make install (or sudo make install)
 
-To produce PDF files, install "python27," and:
+To produce PDF files, install "python27", and:
 python2.7 /usr/local/bin/pdf.py output >out.pdf
 
 (Tested on FreeBSD 13.0 & 12.2)
