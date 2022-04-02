@@ -18,7 +18,6 @@ You'll need version 1.68.
 The refinement coding causes Acrobat to crash. It's not known if this is a bug
 in Acrobat, though it may well be.
 
-
 ## Usage
 
 See the `jbig2enc.h` header for the high level API, or the `jbig2` program for an
@@ -40,3 +39,7 @@ If you want to encode an image as jbig2 (can be view in STDU Viewer) run:
 ```
 $ jbig2 -s feyn.tif &gt;feyn.jb2
 ```
+
+## Patched version
+
+This is a patched version of JBIG2 encoder for FreeBSD running on little-endian machines (e.g. Intel laptop computers). See INSTALL for details.
