@@ -22,7 +22,7 @@ If leptonica's header files (leptonica/*.h) are located in "/usr/local/include",
 ./configure CFLAGS="-I/usr/local/include" LDFLAGS="-L/usr/local/lib" CXXFLAGS="-
 I/usr/local/include"
 make
-make install (or sudo make install)
+make install
 
 To make a PDF file, install "python27", and:
 python2.7 /usr/local/bin/pdf.py output >output.pdf
