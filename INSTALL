@@ -25,7 +25,7 @@ make
 make install (or sudo make install)
 
 To make a PDF file, install "python27", and:
-python2.7 /usr/local/bin/pdf.py output >out.pdf
+python2.7 /usr/local/bin/pdf.py output >output.pdf
 
 (Tested on FreeBSD 13.0 & 12.2)
 
